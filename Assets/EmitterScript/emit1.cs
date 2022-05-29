@@ -51,6 +51,14 @@ public class emit1 : MonoBehaviour
             isShooting = true;
         }
 
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            isShooting = false;
+            for(int i = 0; i < this.transform.childCount; ++i)
+            {
+               // this.transform.GetChild(i).GetComponent<ParticleSystem>().Clear(); // this works
+            }
+        }
 
     }
 
@@ -178,6 +186,16 @@ public class emit1 : MonoBehaviour
         }
     }
 
+
+    public void DestroyAllChildren()
+    {
+        for(int i = 0; i < this.transform.childCount; ++i)
+        {
+            Destroy(this.transform.GetChild(i).gameObject);
+        }
+
+        gameObject.SetActive(false);
+    }
 
  
 }

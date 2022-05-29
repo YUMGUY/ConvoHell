@@ -43,7 +43,7 @@ public class randomEmission : MonoBehaviour
     private float rotationTimerR;
     private float invertVR = 1;
     private float timeR;
-    private float durationRotate;
+    //private float durationRotate;
 
     float minthreshold;
     float maxThreshold;
@@ -76,7 +76,7 @@ public class randomEmission : MonoBehaviour
             isShootingR = true;
         }
         timeR += Time.deltaTime;
-        durationRotate = 5f;
+        //durationRotate = 5f;
         //this.transform.eulerAngles = Vector3.Lerp(new Vector3(0, 0, 0), new Vector3(0, 0, 80), timeR/durationRotate); 
 
     }
