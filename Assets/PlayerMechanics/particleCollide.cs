@@ -67,9 +67,13 @@ public class particleCollide : MonoBehaviour
 
     private void OnParticleCollision(GameObject other)
     {
-        if(other.CompareTag("particle1"))
+        if(other.CompareTag("particle1") && this.gameObject.layer == 3)
         {
-            print("yeah");
+            
+            var col = other.GetComponent<ParticleSystem>().collision;
+            col.lifetimeLoss = 0f; // testing out pachinko methods
+            col.bounce = 1;
+            print("it bounced off");
         }
     }
 }

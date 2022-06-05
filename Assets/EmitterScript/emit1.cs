@@ -28,6 +28,7 @@ public class emit1 : MonoBehaviour
 
     private float rotationTimer;
     private float invertV = 1;
+    public float rotateSpeed;
     private void Awake()
     {
         CreateParticleSystem();
@@ -60,14 +61,20 @@ public class emit1 : MonoBehaviour
             }
         }
 
+       
+        if (isRotating)
+        {
+            rotationTimer += Time.deltaTime;
+            transform.rotation = Quaternion.Euler(0, 0, invertV * rotateSpeed * rotationTimer);
+        }
+            
     }
 
     private void FixedUpdate()
     {
-        rotationTimer += Time.fixedDeltaTime;
+       // rotationTimer += Time.fixedDeltaTime;
 
-        if(isRotating)
-        transform.rotation = Quaternion.Euler(0, 0, invertV * 40 * rotationTimer );
+      
 
        
     }
@@ -140,7 +147,7 @@ public class emit1 : MonoBehaviour
             collisionMod.type = ParticleSystemCollisionType.World;
             collisionMod.mode = ParticleSystemCollisionMode.Collision2D;// IMPORTANT
             collisionMod.sendCollisionMessages = true;
-            collisionMod.collidesWith = LayerMask.GetMask("collide");
+            collisionMod.collidesWith = LayerMask.GetMask("collide", "Water");
 
             // OPTIONAL, could also do lifetimeLoss in collision
 
@@ -182,7 +189,7 @@ public class emit1 : MonoBehaviour
 
         else
         {
-            print("not shooting");
+            
         }
     }
 

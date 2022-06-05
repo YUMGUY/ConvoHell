@@ -1,0 +1,3004 @@
+fileFormatVersion: 2
+guid: 106d6202ab68ca14cbf19331c5d91ee7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 807
+        width: 256
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aebced467c5a534a80e6d628953b453
+      internalID: 1582347240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_1
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 805
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d80297e94f38749ab852ad6b5687fe
+      internalID: 1272997010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_2
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 806
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f2a2f9ad5da8d49add0039ba4bebea
+      internalID: -1563353258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_3
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 806
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c94e3b0a82a2b48aefcb5c782b0f4a
+      internalID: -965175261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_4
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 806
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbce31117105c445ad0079bcb1cc3c2
+      internalID: 717716560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_5
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 806
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300f02bb7457b4b4ca206b4e4e9ceea9
+      internalID: -647260232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_6
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 806
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9a2d9f1dd5e064a84af8021e652504
+      internalID: 1855975860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_7
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 806
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5f16f5de8520544bc8278db1b0f9d5
+      internalID: -1831805303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_8
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 806
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d207fd2def8d94d8d2d477b663fbb0
+      internalID: 1494409856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 806
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de70209c5fc278440b183a2ed7f43d62
+      internalID: 447145649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_10
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 806
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cab2e70f36c6f4d992f355b1aad03e
+      internalID: 188506080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_11
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 806
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90488370fde10d24e8700f118e5bdec5
+      internalID: 2138649684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_12
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 806
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19503137f68ea841a4c914e77f3975a
+      internalID: -2026020538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_13
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 806
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3060810919b23b43b653ed35c9d255f
+      internalID: -157540631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_14
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 806
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e8d7b72f81fcf4aada8acc2911b106
+      internalID: -2010147192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_15
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 758
+        width: 256
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782e19154820cc346b4668ef4f9705d6
+      internalID: -227604651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_16
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 776
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d75094886ee90842ba2bffe8a08830a
+      internalID: 1410713657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_17
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 742
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcdc754f4f835b489555789ef279591
+      internalID: 1719515194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_18
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 741
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5e5a7387462f34787d48d52cf8155f
+      internalID: -957555466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_19
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 742
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e038cd05852de947ba292c5b294ef1a
+      internalID: -1273299368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_20
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 742
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189d0c053809aff4a958d5f00ff262b8
+      internalID: 1029633356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_21
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 762
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e469b801dc66614a9f1c47375bdcded
+      internalID: -264042488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_22
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 743
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f74fbb7d5600ff419b530955e179171
+      internalID: 1513004381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_23
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 743
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea3773281a11ae4bb6bfd5b61fbc59d
+      internalID: -1768049675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_24
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 743
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f70bb22679b1a4d85bb5a738c2b7a3
+      internalID: -370712070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_25
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 743
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4c86752091cdd43a161b3fef44e13c
+      internalID: -1872421451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_26
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 743
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8445f2e8e8409b143b8f04e63ab71582
+      internalID: -543059302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_27
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 743
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b77f5419daa18246ac83981169b6b03
+      internalID: 556334524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_28
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 743
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f394eac9315130b4f97c44c3bab46105
+      internalID: -158176360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_29
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 743
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8930f01aa1c81ae42a06bf67ebae2846
+      internalID: -606981626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_30
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 743
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fe0e24451938f46b73385a1b7cf31a
+      internalID: -1909601777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_31
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 743
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b954686c2582b534bb937a97e4660a44
+      internalID: 455238692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_32
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 743
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316c68a904d76c241bda94ee4ccdb52b
+      internalID: 1298060662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_33
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 743
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4177367718a244192caae716da115c
+      internalID: 1035847808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_34
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 743
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725da076cf0c740479b4fec3cd940664
+      internalID: -1055379328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_35
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 743
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b5bd359954db04aba33432b85b4761
+      internalID: -167272283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_36
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 743
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1da13660e8edc4185775eae1245de1
+      internalID: -1912262491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_37
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 743
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd8c776922e85a4c8dde1d1e2404667
+      internalID: 1965536681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_38
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 614
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db13e1789d06bba4fa720c08ae9a1d71
+      internalID: -2097960503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_39
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 678
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246284927aa12c5479bdd7be8dd85bfc
+      internalID: 229027246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_40
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 678
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22807d3d4dc8dc94cad9959926535160
+      internalID: -1861901936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_41
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 600
+        width: 129
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2482ebc6d6b8ad7438337c81f7336c02
+      internalID: 1805911127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_42
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 645
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab7a842397bd914fa13a979f1189c17
+      internalID: 1889920309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_43
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 645
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c125348033d299448b93c6aaaee54b34
+      internalID: -1811642235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_44
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 645
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6777be88c4c405c44b2cfaf526662c70
+      internalID: 1826947012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_45
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 645
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1109db46fef10eb4fbd4d2d2e821dff9
+      internalID: -1771875777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_46
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 613
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47f0918c22fbfa4a97ec66dffff359d
+      internalID: -265689833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_47
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 565
+        width: 81
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1d4d5abcb898e4bba97ba6cb1842c6
+      internalID: 789174717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_48
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 613
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134b5362cd03fa24097d951a14dc9dba
+      internalID: 225447768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_49
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 584
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbac55bc4b625a4bbaf6b6d82f85842
+      internalID: 1158946094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_50
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 584
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35fc5290ee29954ba6b99e08718ff51
+      internalID: -1292968940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_51
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 583
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcd6b8757328ec4ebf3db2af8f7a9ee
+      internalID: 142775675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_52
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 583
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a350224522947be459cd1df08c43ae81
+      internalID: -1704305655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_53
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 583
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cc7eff5a26b7640b9121b22a0c995e
+      internalID: 546448890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_54
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 583
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de95503ecd0539d40b6d8e4a346b5d3d
+      internalID: -484829906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_55
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 583
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3716ae029e84d24c9f302f7337415c9
+      internalID: 2068978510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_56
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 583
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2babd8b9533e0ab45baa14d62ce31a4f
+      internalID: -1223970932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_57
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 599
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4cd8bcc32cbd84084a909e97d4f244
+      internalID: 104984300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_58
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 599
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f35c78e0e900574eb6c5acf411853ef
+      internalID: -682248126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_59
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 600
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123e050ebc1b4794fbd8b058631a506a
+      internalID: 1738219883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_60
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 566
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bb7b4d95af499409cbf9cd489d70cd
+      internalID: -2061666989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_61
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 568
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a3c0c3acf3615429de2ff397bd918f
+      internalID: 1824616691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_62
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 568
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d5569da29e19044a678e3a03433f25
+      internalID: 1540001865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_63
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 568
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b692a46dcd827f642aedef2d03f2fba7
+      internalID: 293698689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_64
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 568
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c778ea22274c2468d56740062bbb76
+      internalID: 1335761108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_65
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 568
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37a3144506d6c74b9cc22c5b85a1fb3
+      internalID: 2118280862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_66
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 568
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0950db855430674fad1364dc1601605
+      internalID: 846899534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_67
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 568
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2f8321fa636854d8e1e07a72c3feeb
+      internalID: 1475761827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_68
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 568
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07ea550b89fe9548a897a31a6e388f8
+      internalID: -329520691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_69
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 568
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42d9ead0673aa741aafb1ae19ecb8ed
+      internalID: 1679281870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_70
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 568
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab932880c4108048a8ada14b60077fa
+      internalID: 594501375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_71
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 567
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a46f970ad0f8304cbcc340e7e4503d7
+      internalID: -401277723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_72
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 566
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df8b1b5100bbfa43be3115ade8e99e2
+      internalID: 2113497406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_73
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 566
+        width: 47
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac519ed230fe69b4f928c3a4d1cdeeec
+      internalID: 211895863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_74
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 571
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480fb7b2f5f7da148bb40312ebce187e
+      internalID: 642492885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_75
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 525
+        width: 256
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c1a83f9a886644f8ed92c3056775fa
+      internalID: -1990883810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_76
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 524
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa90b730ff23414b9f52f0a03d51a87
+      internalID: -1241902771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_77
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 524
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c67b2c214bb1f648a692a5e67920a41
+      internalID: 1698392824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_78
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 524
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df9bc73b05173c468867eec96bf7f53
+      internalID: 287688043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_79
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 524
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61d85c71ee595d4984d104062c50d23
+      internalID: 1621658902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_80
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 524
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158279b51de0bd646b03dbcfbf8d3aca
+      internalID: 772247705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_81
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 524
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9edf2578fe1cb49b648499e5513064
+      internalID: 1186389181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_82
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 524
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139eafcecb283584ba32bf0c65e89fd9
+      internalID: 1387575672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_83
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 524
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9d0ba0fed4fe34c97b26b60e020881
+      internalID: -1225546534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_84
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 460
+        width: 256
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda03408dd0c9fb4c8261a0161d5d284
+      internalID: 1130902958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_85
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 460
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a2f9ef77730884796a6dc51c5af814
+      internalID: -730607900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_86
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 460
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bd34314dbf65f44ba299d30abce88c
+      internalID: 1030628182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_87
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 460
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8216ec61c90f34a99c3bbd10a7872d
+      internalID: 92852907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_88
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 460
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389f715cf28671547b96e21cffe84dd1
+      internalID: -2077217748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_89
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 427
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc33b74c42587f4b836ba6ae1b64ff4
+      internalID: -966349406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_90
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 427
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b759b83ec2c108046a97b1bd65a03fcc
+      internalID: 1436552907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_91
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 427
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d119cbe1480e0194c8a342ba8444aa41
+      internalID: 408288153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_92
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 427
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa56a8d40a05764d9a25365ee714223
+      internalID: -556598969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_93
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 427
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f204b75eaafc24880b0e1859c29b1f
+      internalID: 441553075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_94
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 427
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e51d2904c3cafc4c96fd28d6040b579
+      internalID: -976584903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_95
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 427
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249c0aec3f37b974cbb10ae2ce84f7c9
+      internalID: 1474732025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_96
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 427
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac703533002b8cc4890c6bace31fe720
+      internalID: -1024409116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_97
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 321
+        width: 67
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3cb5394063f384c8180db282a71acc
+      internalID: -1981587101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_98
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 321
+        width: 12
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0983c3d41c4d843974df5dde97e680
+      internalID: -1371613894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_99
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 321
+        width: 13
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2669a8b52f361f4c9d03ec3fd6b03ed
+      internalID: 1308274628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_100
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 393
+        width: 10
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e21ba5d436a0584ba89c4171c408bcf
+      internalID: 1335267450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_101
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 395
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56677b9131fd9014a8848e7b4661bb28
+      internalID: -591599132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_102
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 395
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5615cf11f7b1a46a8d9a557b3c9fac
+      internalID: 1011264922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_103
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 395
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df96b751715bbb4189e953f449d6ad4
+      internalID: 2126960647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_104
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 395
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a617c4a9ca18344da29c8f99c33b61f
+      internalID: 1683631812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_105
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 395
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96d16d2be64516439e6de8fdcef62c0
+      internalID: 840656706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_106
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 395
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f407ae38204fd24f949abec81d5d80a
+      internalID: -21971382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_107
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 395
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d917b9fb1f49364294ff51ea1928a7e
+      internalID: -310225397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_108
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 395
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93594aaaa65430428004dab9c3bd5c6
+      internalID: 1703229854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_109
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 384
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdee6d4db73d8f4789a94d36003e466
+      internalID: 1802340731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_110
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 422
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6745a9c140261641812f51e6c95a177
+      internalID: -225176578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_111
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 422
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b1c92c60204c945bfb007e0fae5900
+      internalID: -313985720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_112
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 422
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3479a37d783064ea9ccec3d40e4cd9
+      internalID: -924633564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_113
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 365
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7621db067402d914aa4d4d9bc98d68e0
+      internalID: 1125972402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_114
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 365
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d798e939ab8cd40a4e96437aa3242c
+      internalID: -154580205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_115
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 365
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60e0d0420edae746864087ca8b19a06
+      internalID: -175961366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_116
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 365
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae3119800d96f84cb1033797755a9e4
+      internalID: 697957359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_117
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 365
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2114ade99a2ba44abea9b10264c1e3
+      internalID: 199755100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_118
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 365
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a573ef0eb4d1746bab1cbb41de27c2
+      internalID: -1248244347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_119
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 365
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98df495845494db48949686bac6440ac
+      internalID: 26243707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_120
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 365
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc80b3f0563e0694b870ba3f691a2194
+      internalID: 461773687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_121
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 365
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abf0c73ca09e4c4bbeaf04e107ff121
+      internalID: -1238042016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_122
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 388
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aefbe358a4e2ff4389efa1f175d0b0e
+      internalID: 99029071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_123
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 387
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f502d7c26f7c3488227c597e6b6c82
+      internalID: -134472378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_124
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 300
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a915746fb1a324098674eb7eb21076
+      internalID: -2019857717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_125
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 300
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de05e354b0b68d5468863abba6325b55
+      internalID: 40644358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_126
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 300
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ec32fc16254ce40b79e9bd79c8662a
+      internalID: 698915035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_127
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 300
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca1968b0a052b54fb5ec4c121d801ca
+      internalID: -2697797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_128
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 338
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92af08cca8886d142a626e2c868d48ea
+      internalID: 1826566421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_129
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 18
+        width: 251
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a12519db0835b4d8af4f503cd537cd
+      internalID: -1336342446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Touhou Chireiden Subterranean Animism - Bullets_130
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 26
+        width: 255
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2abd99f1b0b5b4aad5b09bc4e37f29
+      internalID: 1661684855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_79: 1621658902
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_108: 1703229854
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_57: 104984300
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_23: -1768049675
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_14: -2010147192
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_87: 92852907
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_125: 40644358
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_77: 1698392824
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_54: -484829906
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_130: 1661684855
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_115: -175961366
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_8: 1494409856
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_28: -158176360
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_35: -167272283
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_18: -957555466
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_116: 697957359
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_67: 1475761827
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_45: -1771875777
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_7: -1831805303
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_31: 455238692
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_34: -1055379328
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_100: 1335267450
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_81: 1186389181
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_33: 1035847808
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_19: -1273299368
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_75: -1990883810
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_32: 1298060662
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_0: 1582347240
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_89: -966349406
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_38: -2097960503
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_55: 2068978510
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_84: 1130902958
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_113: 1125972402
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_30: -1909601777
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_73: 211895863
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_110: -225176578
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_17: 1719515194
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_39: 229027246
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_96: -1024409116
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_47: 789174717
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_112: -924633564
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_6: 1855975860
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_64: 1335761108
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_61: 1824616691
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_111: -313985720
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_4: 717716560
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_101: -591599132
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_59: 1738219883
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_109: 1802340731
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_56: -1223970932
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_15: -227604651
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_2: -1563353258
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_83: -1225546534
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_52: -1704305655
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_1: 1272997010
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_36: -1912262491
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_20: 1029633356
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_71: -401277723
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_5: -647260232
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_42: 1889920309
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_105: 840656706
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_104: 1683631812
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_37: 1965536681
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_60: -2061666989
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_117: 199755100
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_58: -682248126
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_13: -157540631
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_21: -264042488
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_88: -2077217748
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_65: 2118280862
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_46: -265689833
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_120: 461773687
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_78: 287688043
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_107: -310225397
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_66: 846899534
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_119: 26243707
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_26: -543059302
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_3: -965175261
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_11: 2138649684
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_44: 1826947012
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_128: 1826566421
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_40: -1861901936
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_69: 1679281870
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_124: -2019857717
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_48: 225447768
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_49: 1158946094
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_98: -1371613894
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_24: -370712070
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_53: 546448890
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_80: 772247705
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_9: 447145649
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_122: 99029071
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_91: 408288153
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_25: -1872421451
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_43: -1811642235
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_72: 2113497406
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_51: 142775675
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_82: 1387575672
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_102: 1011264922
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_123: -134472378
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_106: -21971382
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_129: -1336342446
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_74: 642492885
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_86: 1030628182
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_121: -1238042016
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_27: 556334524
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_76: -1241902771
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_97: -1981587101
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_41: 1805911127
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_95: 1474732025
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_62: 1540001865
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_126: 698915035
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_85: -730607900
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_118: -1248244347
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_94: -976584903
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_103: 2126960647
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_90: 1436552907
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_29: -606981626
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_70: 594501375
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_127: -2697797
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_12: -2026020538
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_22: 1513004381
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_68: -329520691
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_99: 1308274628
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_16: 1410713657
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_93: 441553075
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_50: -1292968940
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_114: -154580205
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_10: 188506080
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_63: 293698689
+      PC Computer - Touhou Chireiden Subterranean Animism - Bullets_92: -556598969
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

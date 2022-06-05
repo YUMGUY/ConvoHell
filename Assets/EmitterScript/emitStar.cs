@@ -94,7 +94,7 @@ public class emitStar : MonoBehaviour
 
             // adding additional speed?
             var main2child = system2.main;
-            main2child.startSpeed = new ParticleSystem.MinMaxCurve(speed2 + Mathf.Abs(Mathf.Sin(numberOfPoints * particleAngle2 * i *  Mathf.PI / 360)));
+            main2child.startSpeed = new ParticleSystem.MinMaxCurve(speed2 + (Mathf.Abs(Mathf.Sin(numberOfPoints * particleAngle2 * i *  Mathf.PI / 360))));
 
             mainModule.maxParticles = 100000;
             mainModule.simulationSpace = ParticleSystemSimulationSpace.World;

@@ -29,6 +29,12 @@ public class randomEmission : MonoBehaviour
     public bool isShrinking;
     public bool hasGravity;
 
+    [Header("Flag for Type of Rotation")]
+    public bool isTrackingPlayer;
+    private Quaternion targetRotation;
+    public float TrackingSpeed;
+    public Transform player;
+
     // affect the particles , these are radial particles/projectilese
     [Header("Particle Variables")]
     public Color colorR;
@@ -39,6 +45,14 @@ public class randomEmission : MonoBehaviour
 
     public float fireRateR;
     public float partLifetimeR;
+
+    [Header("Affect down/up/left/right motion")]
+    public float gravityModMax;
+    public float gravityModMin;
+
+    public bool changeWorldXvel;
+    public float xVelEndMax;
+    public float xVelEndMin;
 
     private float rotationTimerR;
     private float invertVR = 1;
@@ -76,6 +90,18 @@ public class randomEmission : MonoBehaviour
             isShootingR = true;
         }
         timeR += Time.deltaTime;
+
+
+
+        if (isTrackingPlayer)
+        {
+            float offset = 0f;
+            Vector3 direction = player.position - transform.position;
+            direction.Normalize();
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+            targetRotation = Quaternion.AngleAxis(angle + offset, Vector3.forward);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, TrackingSpeed * Time.deltaTime);
+        }
         //durationRotate = 5f;
         //this.transform.eulerAngles = Vector3.Lerp(new Vector3(0, 0, 0), new Vector3(0, 0, 80), timeR/durationRotate); 
 
@@ -94,6 +120,10 @@ public class randomEmission : MonoBehaviour
     void CreateParticleSystem()
     {
         particleAngleR = (maxAngle - minAngle) / numColR; // e.g 30 - 0 = 30/5 = 6 degrees for each
+        if(offsetAngle < 0)
+        {
+            offsetAngle = 360 + offsetAngle;
+        }
 
         if(isShrinking == true)
         {
@@ -117,7 +147,7 @@ public class randomEmission : MonoBehaviour
             var go = new GameObject("Particle System");
            
            // go.transform.Rotate((particleAngleR * i), 90, 0); // Rotate so the system emits upwards.
-            print(particleAngleR * i + " is the angle");
+          //  print(particleAngleR * i + " is the angle");
             go.transform.parent = this.transform;
 
             // THIS WORKS, CHANGE IT SO THAT THE PARENT IS BEFORE THE ROTATION  // IS CHANGED
@@ -126,9 +156,9 @@ public class randomEmission : MonoBehaviour
 
             else
             {
-                print("angles are randomized");
+              //  print("angles are randomized");
                 float angleRandom = Random.Range(offsetAngle, maxAngle + offsetAngle);
-                print("the random angle is " + angleRandom);
+              //  print("the random angle is " + angleRandom);
                 go.transform.eulerAngles = new Vector3(angleRandom, 90, 0);
             }
             
@@ -165,18 +195,28 @@ public class randomEmission : MonoBehaviour
             texture_.AddSprite(textureR);
 
 
-            // change velocity over lifetime
+            // Change Velocity over Lifetime ////////////////////////////////////
 
             var vel = systemRandom.velocityOverLifetime;
+
+            if(changeWorldXvel == true)
+            vel.space = ParticleSystemSimulationSpace.World;
+            else { vel.space = ParticleSystemSimulationSpace.Local; }
+
             vel.enabled = true;
-            AnimationCurve curve = new AnimationCurve();
+        
 
-            curve.AddKey(0.0f, 1.0f);
-            curve.AddKey(1.0f, 0f);
-            //vel.x = new ParticleSystem.MinMaxCurve(1f, curve);
-            //vel.y = new ParticleSystem.MinMaxCurve(5f, curve);
-            //vel.z = new ParticleSystem.MinMaxCurve(0, curve);
+            // RIGHT NOW ONLY CHANGING X VELOCITY OVER LIFETIME, RANDOM VALUES
 
+            if(changeWorldXvel == true)
+            {
+                vel.x = new ParticleSystem.MinMaxCurve(xVelEndMin, xVelEndMax);
+                vel.y = new ParticleSystem.MinMaxCurve(0,0);
+                vel.z = new ParticleSystem.MinMaxCurve(0,0);
+            }
+           
+
+            else { vel.x = new ParticleSystem.MinMaxCurve(0); vel.y = new ParticleSystem.MinMaxCurve(0); vel.z = new ParticleSystem.MinMaxCurve(0); }
 
             // for making roses
            vel.speedModifier = new ParticleSystem.MinMaxCurve(1.0f, speedCurveR); // pos -> neg speed for rose while rotating
@@ -201,8 +241,8 @@ public class randomEmission : MonoBehaviour
             //GRAVITY MODIFIER
             if(hasGravity == true)
             {
-
-                mainModule.gravityModifier = new ParticleSystem.MinMaxCurve(.1f,.25f);
+                // random select between 2 values
+                mainModule.gravityModifier = new ParticleSystem.MinMaxCurve(gravityModMin,gravityModMax);
             }
             
 
@@ -229,7 +269,7 @@ public class randomEmission : MonoBehaviour
             
             foreach (Transform particleSchild in transform)
             {
-                
+                print(particleSchild.localEulerAngles.x + " is the child angle");
                 if (particleSchild.localRotation.eulerAngles.x <= maxThreshold + .1f && particleSchild.localRotation.eulerAngles.x >= minthreshold - .1f)
                 {
 
@@ -253,6 +293,8 @@ public class randomEmission : MonoBehaviour
 
             }
 
+            print(maxThreshold + " is the max");
+            print(minthreshold + " is the min");
             if (isShrinking)
             {
                 minthreshold += particleAngleR;
@@ -265,12 +307,21 @@ public class randomEmission : MonoBehaviour
                 minthreshold -= particleAngleR;
                 maxThreshold += particleAngleR;
             }
-           
+            
+            // reset for shrinking
             if(minthreshold >= (particleAngleR * 3) + offsetAngle)
             {
                 print("reset");
                 minthreshold = offsetAngle;
                 maxThreshold = ((numColR - 1) * particleAngleR) + offsetAngle;
+            }
+
+            // reset for expanding
+            if(maxThreshold > (particleAngleR * 4) + offsetAngle && isExpanding == true)
+            {
+                print("reset");
+                minthreshold = offsetAngle + (particleAngleR * 2);
+                maxThreshold = offsetAngle + (particleAngleR * 2); // temporary, must find the median after wards, cast to an int or round down, rn works for 5
             }
         }
 
@@ -311,7 +362,7 @@ public class randomEmission : MonoBehaviour
 
         else
         {
-            print("not shooting");
+            //print("not shooting");
         }
     }
 }
